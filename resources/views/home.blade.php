@@ -15,6 +15,7 @@
 
 <body>
     <h1 class="d-flex justify-content-center text-danger">Benvenuto in Laravel</h1>
+    <h2>Questa è la formazione del Fantcalcaio di {{ $nome }} {{ $cognome }}</h2>
     
 
     <script src="./script.js"></script>
