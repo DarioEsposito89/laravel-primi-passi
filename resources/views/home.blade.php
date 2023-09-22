@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <h1>Benvenuto in Laravel</h1>
+    <h1 class="d-flex justify-content-center text-danger">Benvenuto in Laravel</h1>
     
 
     <script src="./script.js"></script>
