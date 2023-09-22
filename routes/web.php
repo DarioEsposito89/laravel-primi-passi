@@ -26,3 +26,9 @@ Route::get('/', function () {
     return view('home', $data);
     
 });
+
+Route::get('/', function () {
+    return view('probabili formazioni');
+    return '<h1>Qui si consultano le probbabili formazioni della Seri A</h1>';
+    
+});
