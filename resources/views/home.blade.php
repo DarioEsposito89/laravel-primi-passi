@@ -15,8 +15,14 @@
 
 <body>
     <h1 class="d-flex justify-content-center text-danger">Benvenuto in Laravel</h1>
-    <h2>Questa è la formazione del Fantcalcaio di {{ $nome }} {{ $cognome }}</h2>
-    
+    <div class="container">
+        <h2 class="text-center">Questa è la formazione del Fantcalcaio di {{ $nome }} {{ $cognome }}</h2>
+        <ul class="list-group text-center fw-bold">
+            @foreach ($calciatori as $el)
+            <li class="list-group-item">{{ $el }}</li>
+            @endforeach
+        </ul>
+    </div>
 
     <script src="./script.js"></script>
 </body>

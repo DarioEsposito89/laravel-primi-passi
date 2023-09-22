@@ -17,7 +17,11 @@ Route::get('/', function () {
     $data= [
         "nome"=> "Dario",
         "cognome"=> "Esposito",
+        "calciatori" => ["Meret", "Scalvini", "Lovato", "Darmian", "Kristensen", "Strootman", "Zielinski", "Weah", "F.Anderson", "Leao", "Lukaku",],
     ];
+
+    
         
     return view('home', $data);
+    return '<h1>Hello Wolrd</h1>';
 });
