@@ -28,6 +28,6 @@ Route::get('/', function () {
 });
 
 Route::get('/probabiliformazioni', function () {
-    return '<h1>Qui si consultano le probbabili formazioni della Seri A</h1>';
+    return '<h1>Qui si consultano le probbabili formazioni della Serie A</h1>';
     
 });
