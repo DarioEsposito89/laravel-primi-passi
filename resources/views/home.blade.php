@@ -22,7 +22,7 @@
             <li class="list-group-item">{{ $el }}</li>
             @endforeach
         </ul>
+        <a href="/probabiliformazioni"><button type="button" class="btn btn-primary">Probabili formazioni</button></a>
     </div>
-
     <script src="./script.js"></script>
 </body>
